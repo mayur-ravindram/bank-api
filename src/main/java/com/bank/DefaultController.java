@@ -9,6 +9,5 @@ public class DefaultController {
 	@GetMapping("/ping")
 	public String getHealth() {
 		return "Success";
-		
 	}
 }
